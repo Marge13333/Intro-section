@@ -1,0 +1,120 @@
+.Info{
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+}
+.info-box{
+    max-width: 255px;
+    width: 100%;
+}
+.info-box-Img{
+    padding: 38px 43px;
+    background-color: #093F68;
+    border-radius: 45px;
+    border: 1px solid #093F68;
+    transition: all.3s;
+    max-width: 160px;
+    width: 100%;
+    min-height: 164px;
+}
+
+.info-box-Img:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+.info-texts{
+    margin-top: 50px;
+}
+.info-mainText{
+    color: #ffff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.info-text{
+    font-size: 15px;
+    color: #777F98;
+    margin-top: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.box-up{
+    margin-top: -50px;
+}
+@media (width <= 1240px){
+    .box-up{
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    .Info{
+        margin: 100px auto;
+    }
+    .info-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 573px;
+        width: 100%;
+        gap: 40px;
+    }
+    .info-box{
+        max-width: 515px;
+        width: 100%;
+        display: flex;
+        min-height: 123px;
+height: 100%;
+    }
+    .info-texts{
+        margin-top: 0px;
+        margin-left: 55px;
+        max-width: 340px;
+        width: 100%;
+    }
+  
+    
+   
+}
+@media (width <= 768px){
+    .info-box-Img:hover{
+        cursor: none;
+        background-color: #093F68;
+    }
+    .box-up{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .Info{
+        margin: 146px auto;
+    }
+    .info-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 327px;
+        width: 100%;
+        gap: 30px;
+    }
+    .info-box{
+        max-width: 515px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .info-texts{
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+   
+}

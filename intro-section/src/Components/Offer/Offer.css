@@ -1,0 +1,168 @@
+.Offer{
+    margin: 200px auto;
+    
+}
+.offer-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 540px;
+    width: 100%;
+}
+.Offer-headline{
+    font-size: 32px;
+    color: #ffffff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.offer-head-para{
+    color: #777F98;
+    font-size: 15px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.Offer,.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 72px;
+    position: relative;
+}
+.offer-head-para{
+    margin-top: 25px;
+}
+
+.offer-box{
+    max-width: 445px;
+    width: 100%;
+    min-height: 425px;
+    height: 100%;
+    padding: 38px 50px;
+    background-color: #093F68;
+    border-radius: 10px;
+   cursor: pointer;
+   transition: all.3s;
+    
+}
+.offer-box:hover{
+    transform: scale(1.05);
+}
+
+.offer-icons-img{
+    position: absolute;
+    top: -30px;
+}
+.offer-name{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.offer-desc{
+    font-size: 15px;
+    color: #ffffff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    margin-top: 20px;
+}
+.offer-prices{
+margin-top: 25px;
+}
+.main-price{
+    display: flex;
+    font-size: 40px ;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+}
+.offer-icons{
+    margin-top: 20px;
+}
+.month{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #080C20;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box-height{
+    transform: scale(1.05);
+    transition: all.3s;
+}
+.box-height:hover{
+    transform: scale(1.10);
+}
+@media (width <= 1024px){
+    .offer-wrapper{
+        flex-direction: column;
+        margin-top: 55px;
+    }
+    .box-height{
+        margin-top: 35px;
+    }
+}
+ @media (width <= 768px){
+.Offer-headline{
+    font-size: 25px
+}
+.offer-wrapper{
+    overflow: hidden;
+}
+.offer-head-para{
+    font-size: 15px;
+}.offer-box{
+max-width: 330px;
+width: 100%;
+}
+.offer-box:hover{
+    transform: scale(1.00);
+}
+.offer-icons-img{
+    position: absolute; 
+    top: -10px;
+}
+.box-height{
+    transform: scale(1.00);  
+}
+.offer-name{
+    font-size: 18px;
+}
+}
+@media (width <= 368px){
+    .Offer{
+        overflow: hidden;
+    }
+}

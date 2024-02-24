@@ -1,0 +1,89 @@
+.Notified{
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+}
+.Notified-box{
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    margin-top: -200px;
+    text-align: center;
+}
+.notified-title{
+    font-size: 32px;
+    color: #ffffff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.notified-input-wrap{
+    margin-top:42px ;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px ;
+}
+.email{
+    max-width: 320px;
+    width: 100%;
+    padding-top: 13px;
+    padding-left: 22px;
+    padding-bottom:11px ;
+    background-color: #093F68;
+    border-radius: 24px;
+    border: 1px solid #093F68;
+    outline: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.button{
+    padding:12px 18px ;
+    background-color: #3EE9E5;
+    color: #093F68;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid #3EE9E5;
+border-radius: 24px;
+
+transition: all.3s;
+cursor: pointer;
+}
+.button:hover{
+    background-color: transparent;
+    color: #3EE9E5;
+}
+.error{
+   margin-left: -350px;
+    color: #FF2965;
+}
+.Path{
+    width: 100%;
+}
+@media (width <= 768px){
+
+    .notified-title{
+        font-size: 24px;
+    }
+    .notified-input-wrap{
+        margin-top:30px ;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:15px ;
+    }
+
+}

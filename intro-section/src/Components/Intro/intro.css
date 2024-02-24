@@ -1,0 +1,176 @@
+@keyframes logo {
+	0% {
+		padding-left: 0;
+        opacity: 0;
+	}
+	100% {
+		padding-left: 165px;
+        opacity:1;
+	}
+}
+
+@keyframes intro-bg {
+	0% {
+        opacity: 0;
+	}
+	100% {
+        opacity:1;
+	}
+}
+@keyframes text {
+	0% {
+        margin-top: 60px;
+        opacity: 0;
+	}
+	100% {
+        margin-top: 0px;
+        opacity:1;
+	}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #080C20;
+  }
+.header{
+    padding-top: 80px;
+   padding-left: 165px;
+
+   animation-name: logo ;
+    animation-duration: 3s;
+}
+
+.intro-bg,.intro-bg-2 {
+    animation-name:  intro-bg ;
+    animation-duration: 3s;
+}
+.intro-main{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-line{
+    animation-name:intro-bg ;
+    animation-duration: 3s;
+}
+
+.intro-main-texts{
+    animation-name: text ;
+    animation-duration: 3s;
+}
+.intro-main-texts{
+    max-width: 540px;
+    width: 100%;
+    text-align: center;
+}
+.bg-none{
+    display: none;
+}
+.intro-mainText{
+  display: inline-block;
+  
+}
+.intro-MainText-bg{
+    margin-top: -300px;
+}
+
+.intro-mainText{
+    color: #fff;
+    font-size: 48px;
+    
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.intro-text{
+    margin-top: 24px;
+    color: #777F98;
+    font-size: 15px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.mouse{
+    margin-top: 65px;
+}
+.color-blue{
+    color: #3EE9E5;
+}
+@media (width <= 1240px){
+    .intro-main{
+        margin-top: 80px;
+        display: flex;
+        align-items:flex-start;
+        overflow: hidden;
+        margin-left: -10%;
+       
+}
+.header{
+    padding-top: 50px;
+   padding-left: 40px;
+}
+
+.intro-mainText{
+    font-size: 36px;
+   
+}
+}
+@media (width <= 1024px){
+    .intro-main{
+        margin-top: 70px;
+        margin-left: -20%;
+        
+}
+.intro-main-texts{
+    max-width: 480px;
+   
+}
+.intro-mainText{
+    font-size: 32px;
+}
+.mouse{
+    margin-top: 32px;
+}
+
+}
+@media (width <= 768px){
+    .header{
+        padding-top: 40;
+       padding-left: 0;
+       display: flex;
+       justify-content: center;
+    }
+    .intro-main{
+        margin-top: 70px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        
+}
+.bg-none{
+    display: block;
+}
+.intro-mainText{
+    margin: 0 auto;
+    max-width: 330px;
+    width: 100%;
+    margin-top: -20px;
+}
+.bg-line{
+   opacity: 0;
+}
+.intro-bg-none{
+    display: none;
+}
+}
